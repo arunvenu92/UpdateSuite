@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/black">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:text="UPDATE SUITE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FF00"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="Business @ time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#00FF00"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_t"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edit_t"
+        android:layout_marginBottom="109dp"
+        android:text="Continue" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_t"
+        android:layout_centerVertical="true"
+        android:text="Enter the Secret number"
+        android:textColor="#00FF00" />
+
+    <EditText
+        android:id="@+id/edit_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="#FFFF99"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
